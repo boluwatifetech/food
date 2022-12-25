@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    }
+    .head{
+        margin-top:50px;
+        text-align:center;
+        text-transform:capitalize;
+        font-family:fantasy;
+        position:relative;
+    }
+    .nav-container button{
+        padding:3px 10px;
+        font-size:14px;
+        font-family:cursive;
+text-transform:capitalize;
+transition:all 1s ease;
+cursor:pointer;
+    }
+    .nav-container button:hover{
+background:transparent;
+border-bottom:1px solid red;
+color:white;
+    }
+    .head::before{
+        content:'';
+        height:3px;
+        width:60px;
+        position:absolute;
+        
+        
+        bottom:-8px;
+        background:red;
+
+    }
+
+    .flex-item{
+        color:white;
+        padding:15px 50px;
+        border-radius:7px;
+        margin:0px 15px;
+        background:black;
+    }
+    .map-cover{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        align-items:center;
+        grid-gap:10px;
+        margin-top:60px;
+text-align:center;
+
+    }
+.cover-nav{
+    padding: 15px;
+        border-radius: 2px;
+        background-color:black;
+        color: white;
+    
+}
+
+.remain{
+    box-sizing:border-box;
+    margin-top:40px;
+
+}
+.header{
+    font-size:20px;
+    font-weight:600;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.header span{
+    color:red;
+    font-style:italic;
+     font-family:cursive;
+}
+.remain{
+    max-width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+padding:0px 60px;
+}
+.image-container img{
+    width:400px;
+    height:200px;
+    border-radius:4px;
+}
+.href ul li{
+list-style:none;
+display:inline-block;
+margin-right:20px;
+
+}
+.href ul li a{
+    font-family:cursive;
+    font-size:17px;
+    color:white;
+    transition:all 1s ease;
+    text-decoration:none;
+text-transform:capitalize;
+padding:0px 5px;
+}
+.href ul li a:hover{
+
+background:white;
+
+color:black;
+}
+.remain h1{
+    font-size:20px;
+    margin-bottom:10px;
+    text-transform:capitalize;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.remain span{
+    color:red;
+    font-style:italic;
+    font-family:cursive;
+}
+.remain p{
+    font-size:14px;
+    font-weight:350;
+    line-height:27px;
+    word-spacing:3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
